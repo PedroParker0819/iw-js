@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <div class="inicio none">
+            <h1>Quizz - Triade do tempo</h1>
+            <p>A Triade do Tempo é um teste psicológico que busca compreender e analisar a forma como as pessoas lidam com o tempo em sua vida cotidiana. Essa metodologia, desenvolvida por Christian Barbosa, divide as atividades em três categorias principais: importante, urgente e circunstancial.</p>
+            <button onclick="next()">Começar</button>
+        </div>
+        <div class="quest" id="1">
+            <p>Costumo ir a eventos, festas ou cursos, mesmo sem ter muita vontade, para
+                agradar meu chefe meus amigos ou família.
+                </p>
+                <input type="radio" name="quest-1" id="p1" class="pont">1<br>
+                <input type="radio" name="quest-1" id="p2" class="pont">2<br>
+                <input type="radio" name="quest-1" id="p3" class="pont">3<br>
+                <input type="radio" name="quest-1" id="p4" class="pont">4<br>
+                <input type="radio" name="quest-1" id="p5" class="pont">5<br>
+                <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="2">
+            <p>Não consigo realizar tudo que me propus fazer no dia e preciso fazer hora extra e
+                levar trabalho para casa
+                </p>
+            <input type="radio" name="quest-2" id="p1" class="pont">1<br>
+            <input type="radio" name="quest-2" id="p2" class="pont">2<br>
+            <input type="radio" name="quest-2" id="p3" class="pont">3<br>
+            <input type="radio" name="quest-2" id="p4" class="pont">4<br>
+            <input type="radio" name="quest-2" id="p5" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="3">
+            <p>Quando recebo um novo e-mail, costumo dar uma olhada para checar o
+                conteúdo.
+                </p>
+                <input type="radio" name="quest-3" id="p1" class="pont">1<br>
+                <input type="radio" name="quest-3" id="p1" class="pont">2<br>
+                <input type="radio" name="quest-3" id="p1" class="pont">3<br>
+                <input type="radio" name="quest-3" id="p1" class="pont">4<br>
+                <input type="radio" name="quest-3" id="p1" class="pont">5<br>
+                <button onclick="next()">Continuar</button>
+        </div>
+        <div class="quest none" id="4">
+            <p>Costumo visitar com regularidade pessoas relevantes em minha vida como amigos
+                parentes, filhos. </p>
+                <input type="radio" name="quest-4" id="p1" class="pont">1<br>
+                <input type="radio" name="quest-4" id="p1" class="pont">2<br>
+                <input type="radio" name="quest-4" id="p1" class="pont">3<br>
+                <input type="radio" name="quest-4" id="p1" class="pont">4<br>
+                <input type="radio" name="quest-4" id="p1" class="pont">5<br>
+                <button onclick="next()">Continuar</button>
+        </div>
+
+        <div class="quest none" id="5">
+            <p>É comum aparecer problemas inesperados no meu dia a dia.</p>
+            <input type="radio" name="quest-5" id="p1" class="pont">1<br>
+            <input type="radio" name="quest-5" id="p1" class="pont">2<br>
+            <input type="radio" name="quest-5" id="p1" class="pont">3<br>
+            <input type="radio" name="quest-5" id="p1" class="pont">4<br>
+            <input type="radio" name="quest-5" id="p1" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="6">
+            <p>Assumo compromissos com outras pessoas ou aceito novas posições na
+                empresa, mesmo que não goste muito da nova atividade, se for para aumentar
+                meus rendimentos ou obter uma promoção. </p>
+            <input type="radio" name="quest-6" id="p1" class="pont">1<br>
+            <input type="radio" name="quest-6" id="p1" class="pont">2<br>
+            <input type="radio" name="quest-6" id="p1" class="pont">3<br>
+            <input type="radio" name="quest-6" id="p1" class="pont">4<br>
+            <input type="radio" name="quest-6" id="p1" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="7">
+            <p>Tenho um tempo definido para dedicar a mim mesmo e nele, posso fazer o que
+                quiser</p>
+            <input type="radio" name="quest-7" id="p1" class="pont">1<br>
+            <input type="radio" name="quest-7" id="p1" class="pont">2<br>
+            <input type="radio" name="quest-7" id="p1" class="pont">3<br>
+            <input type="radio" name="quest-7" id="p1" class="pont">4<br>
+            <input type="radio" name="quest-7" id="p1" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="8">
+            <p>Costumo deixar para fazer relatórios, imposto de renda, compras de Natal, estudar
+                para provas e outras tarefas perto do prazo de entrega.</p>
+            <input type="radio" name="quest-1" id="p8" class="pont">1<br>
+            <input type="radio" name="quest-1" id="p8" class="pont">2<br>
+            <input type="radio" name="quest-1" id="p8" class="pont">3<br>
+            <input type="radio" name="quest-1" id="p8" class="pont">4<br>
+            <input type="radio" name="quest-1" id="p8" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+
+        <div class="quest none" id="9">
+            <p>Nos dias de descanso, costumo passar boa parte do dia assistindo à televisão,
+                jogando ou acessando a internet.
+                </p>
+            <input type="radio" name="quest-9" id="p1" class="pont">1<br>
+            <input type="radio" name="quest-9" id="p1" class="pont">2<br>
+            <input type="radio" name="quest-9" id="p1" class="pont">3<br>
+            <input type="radio" name="quest-9" id="p1" class="pont">4<br>
+            <input type="radio" name="quest-9" id="p1" class="pont">5<br>
+            <button onclick="next()">Continuar</button>
+        </div>
+
+        <div class="quest none" id="10">
+            <p>Faço um planejamento por escrito de tudo que preciso fazer durante minha
+                semana.
+                </p>
+            <input type="radio" name="quest-10" id="p1" class="pont">1
+            <input type="radio" name="quest-10" id="p1" class="pont">2
+            <input type="radio" name="quest-10" id="p1" class="pont">3
+            <input type="radio" name="quest-10" id="p1" class="pont">4
+            <input type="radio" name="quest-10" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="11">
+            <p>Posso afirmar que estou conseguindo realizar tudo que gostaria em minha vida e
+                que o tempo está passando na realidade correta. </p>
+            <input type="radio" name="quest-11" id="p1" class="pont">1
+            <input type="radio" name="quest-11" id="p1" class="pont">2
+            <input type="radio" name="quest-11" id="p1" class="pont">3
+            <input type="radio" name="quest-11" id="p1" class="pont">4
+            <input type="radio" name="quest-11" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        <div class="quest none" id="12">
+            <p>Costumo participar de reuniões sem saber direito o conteúdo, o porquê devo
+                participar ou a que resultado aquele encontro pode levar.</p>
+            <input type="radio" name="quest-12" id="p1" class="pont">1
+            <input type="radio" name="quest-12" id="p1" class="pont">2
+            <input type="radio" name="quest-12" id="p1" class="pont">3
+            <input type="radio" name="quest-12" id="p1" class="pont">4
+            <input type="radio" name="quest-12" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        <div class="quest none" id="13">
+            <p>Consigo melhores resultados e me sinto mais produtivo quando estou sob pressão
+                ou com o prazo curto.
+                </p>
+            <input type="radio" name="quest-13" id="p1" class="pont">1
+            <input type="radio" name="quest-13" id="p1" class="pont">2
+            <input type="radio" name="quest-13" id="p1" class="pont">3
+            <input type="radio" name="quest-13" id="p1" class="pont">4
+            <input type="radio" name="quest-13" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="14">
+            <p>Quando quero alguma coisa, defino esse objetivo por escrito, estabeleço prazos
+                em minha agenda, monitoro os resultados obtidos e os comparo com os
+                esperados.</p>
+            <input type="radio" name="quest-14" id="p1" class="pont">1
+            <input type="radio" name="quest-14" id="p1" class="pont">2
+            <input type="radio" name="quest-14" id="p1" class="pont">3
+            <input type="radio" name="quest-14" id="p1" class="pont">4
+            <input type="radio" name="quest-14" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        <div class="quest none" id="15">
+            <p>Leio muitos e-mails desnecessários, com piadas, correntes, propagandas,
+                apresentações, produtos e etc.
+                </p>
+            <input type="radio" name="quest-15" id="p1" class="pont">1
+            <input type="radio" name="quest-15" id="p1" class="pont">2
+            <input type="radio" name="quest-15" id="p1" class="pont">3
+            <input type="radio" name="quest-15" id="p1" class="pont">4
+            <input type="radio" name="quest-15" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="16">
+            <p>Estive atrasado com minhas tarefas ou reuniões nas últimas semanas</p>
+            <input type="radio" name="quest-16" id="p1" class="pont">1
+            <input type="radio" name="quest-16" id="p1" class="pont">2
+            <input type="radio" name="quest-16" id="p1" class="pont">3
+            <input type="radio" name="quest-16" id="p1" class="pont">4
+            <input type="radio" name="quest-16" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="17">
+            <p>Faço esporte com regularidade, me alimento da forma adequada e tenho o lazer
+                que gostaria.
+                </p>
+            <input type="radio" name="quest-17" id="p1" class="pont">1
+            <input type="radio" name="quest-17" id="p1" class="pont">2
+            <input type="radio" name="quest-17" id="p1" class="pont">3
+            <input type="radio" name="quest-17" id="p1" class="pont">4
+            <input type="radio" name="quest-17" id="p1" class="pont">5
+            <button onclick="next()">Continuar</button>
+        </div>
+        
+        <div class="quest none" id="18">
+            <p>É comum reduzir meu horário de almoço ou até mesmo comer enquanto trabalho
+                para concluir um projeto ou tarefa.</p>
+            <input type="radio" name="quest-18" id="p1" class="pont">1
+            <input type="radio" name="quest-18" id="p1" class="pont">2
+            <input type="radio" name="quest-18" id="p1" class="pont">3
+            <input type="radio" name="quest-18" id="p1" class="pont">4
+            <input type="radio" name="quest-18" id="p1" class="pont">5
+            <button onclick="next()">Terminar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
